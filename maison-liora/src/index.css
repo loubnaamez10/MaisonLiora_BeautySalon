@@ -104,9 +104,12 @@ section {
 .logo {
   display: inline-flex;
   align-items: center;
-  font: inherit;
-  font-weight: 700;
   line-height: 1;
+  color: var(--muted);
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  font-size: 1.7rem;
+  letter-spacing: 0.02em;
 }
 
 .logo-image {
@@ -139,6 +142,8 @@ section {
 
 .logo-text {
   color: var(--text);
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
   font-size: 1em;
   letter-spacing: 0.01em;
 }
